@@ -4,11 +4,11 @@
   "private": true,
   "engines": {
     "node": "18.17.0",
-    "npm": "~9.6"
+    "npm": "9.6.7"
   },
   "volta": {
     "node": "18.17.0",
-    "npm": "~9.6"
+    "npm": "9.6.7"
   },
   "scripts": {
     "dev": "next dev",
