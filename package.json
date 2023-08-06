@@ -9,7 +9,10 @@
     "lint": "next lint",
     "format": "prettier . --check",
     "lint:all": "run-s format:check lint:check",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:fix": "next lint --fix",
+    "format:fix": "prettier . --write",
+    "lint:fix-all": "run-s format:fix lint:fix"
   },
   "dependencies": {
     "@types/node": "20.4.8",
