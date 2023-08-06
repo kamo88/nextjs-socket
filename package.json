@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint:check": "next lint",
-    "format:check": "prettier . --check"
+    "lint": "next lint",
+    "format": "prettier . --check",
+    "lint:all": "run-s format:check lint:check"
   },
   "dependencies": {
     "@types/node": "20.4.8",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^9.0.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "3.0.1"
   }
 }
