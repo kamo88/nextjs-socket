@@ -16,7 +16,9 @@
     "lint": "next lint",
     "format": "prettier . --check",
     "lint:all": "run-s format lint",
-    "prepare": "husky install",
+    "prepare:husky": "husky install",
+    "prepare:style": "panda codegen",
+    "prepare": "run-s prepare:husky prepare:style",
     "lint:fix": "next lint --fix",
     "format:fix": "prettier . --write",
     "lint:fix-all": "run-s format:fix lint:fix"
@@ -33,10 +35,13 @@
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@pandacss/dev": "^0.9.0",
+    "autoprefixer": "^10.4.14",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.27",
     "prettier": "3.0.1"
   }
 }

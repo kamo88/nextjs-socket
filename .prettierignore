@@ -2,6 +2,7 @@
 build
 coverage
 .next
+styled-system
 
 package.json
 package-lock.json
