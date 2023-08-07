@@ -15,7 +15,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier . --check",
-    "lint:all": "run-s format:check lint:check",
+    "lint:all": "run-s format lint",
     "prepare": "husky install",
     "lint:fix": "next lint --fix",
     "format:fix": "prettier . --write",
