@@ -21,5 +21,13 @@
         "mjs": "never"
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["panda.config.ts"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  ]
 }
