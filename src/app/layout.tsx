@@ -1,5 +1,4 @@
 import './globals.css';
-import './index.css';
 import { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
