@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import styles from './page.module.css';
 import { css } from 'style/css';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -13,6 +13,8 @@ export default function Home() {
         >
           aaaaaa
         </p>
+        <button type="button">aaaa</button>
+        <input aria-labelledby="address_label" />
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
