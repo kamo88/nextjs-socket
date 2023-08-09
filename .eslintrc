@@ -20,6 +20,10 @@
         "tsx": "never",
         "mjs": "never"
       }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["panda.config.ts"] }
     ]
   }
 }
