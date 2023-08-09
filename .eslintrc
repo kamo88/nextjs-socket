@@ -20,14 +20,10 @@
         "tsx": "never",
         "mjs": "never"
       }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["panda.config.ts"] }
     ]
-  },
-  "overrides": [
-    {
-      "files": ["panda.config.ts"],
-      "rules": {
-        "import/no-extraneous-dependencies": "off"
-      }
-    }
-  ]
+  }
 }
